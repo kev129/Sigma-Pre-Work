@@ -2,7 +2,7 @@
 //31557600000 is 24 * 3600 * 365.25 * 1000 - which is a year in ms
 // Date.Now returns ms elapsed since January 1, 1970 00:00:00 UTC.
 
-//Test case: 1972-12-04 should return 50
+//Test case: 1972-12-04 should return 50 current year is 2022
 
 function getAge() {
   let birthDate = Math.floor(
